@@ -122,19 +122,19 @@ p {
 }
 
 .description::before {
-  background-image: url(/tab-menu/images/2.png);
+  background-image: url(../tab-menu/images/2.png);
 }
 
 .characteristic::before {
-  background-image: url(/tab-menu/images/3.png);
+  background-image: url(../tab-menu/images/3.png);
 }
 
 .delivery::before {
-  background-image: url(/tab-menu/images/4.png);
+  background-image: url(../tab-menu/images/4.png);
 }
 
 .reviews::before {
-  background-image: url(/tab-menu/images/5.png);
+  background-image: url(../tab-menu/images/5.png);
 }
 
 .tab-content-img {
