@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="product-card-tabs" id="tabs-one">
+    <div class="tab-mavigation">
+      <div class="tab-arrows">
+        <div class="tab-arrow-prev">
+          <img src="images/arrow-prev.png" class="tab-arrow-img-prev" alt="">
+        </div>
+        <div class="tab-arrow-next">
+          <img src="images/arrow-next.png" class="tab-arrow-img-next" alt="">
+        </div>
+      </div>
+      <div class="tab tab-active">
+        <span class="tab-heading description">Описание</span>
+      </div>
+      <div class="tab">
+        <span class="tab-heading characteristic">Характеристики</span>
+      </div>
+      <div class="tab">
+        <span class="tab-heading delivery">Доставка</span>
+      </div>
+      <div class="tab">
+        <span class="tab-heading reviews">Отзывы</span>
+      </div>
+    </div>
+    <div class="tab-contents">
+      <div class="tab-content tab-content-active">
+        <div class="tab-content-title">
+          <h2 class="title">Описание</h2>
+        </div>
+        <div class="tab-content-text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde delectus atque eveniet vero et molestias ex modi laboriosam, quibusdam ad aspernatur perspiciatis consequatur expedita id consequuntur dicta ullam magni voluptates?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde delectus atque eveniet vero et molestias ex modi laboriosam, quibusdam ad aspernatur perspiciatis consequatur expedita id consequuntur dicta ullam magni voluptates?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde delectus atque eveniet vero et molestias ex modi laboriosam, quibusdam ad aspernatur perspiciatis consequatur expedita id consequuntur dicta ullam magni voluptates?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde delectus atque eveniet vero et molestias ex modi laboriosam, quibusdam ad aspernatur perspiciatis consequatur expedita id consequuntur dicta ullam magni voluptates?
+          </p>
+        </div>
+      </div>
+      <div class="tab-content">
+        <div class="tab-content-title">
+          <h2 class="title">Характеристики</h2>
+        </div>
+        <div class="tab-content-media">
+          <img class="tab-content-img" src="images/1.png" alt="">
+        </div>
+      </div>
+      <div class="tab-content">
+        <div class="tab-content-title">
+          <h2 class="title">Доставка</h2>
+        </div>
+        <div class="tab-content-text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde delectus atque eveniet vero et molestias ex modi laboriosam, quibusdam ad aspernatur perspiciatis consequatur expedita id consequuntur dicta ullam magni voluptates?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde delectus atque eveniet vero et molestias ex modi laboriosam, quibusdam ad aspernatur perspiciatis consequatur expedita id consequuntur dicta ullam magni voluptates?
+          </p>
+        </div>
+      </div>
+      <div class="tab-content">
+        <div class="tab-content-title">
+          <h2 class="title">Отзывы</h2>
+        </div>
+        <form class="review-form">
+          <div class="review-add">Оставьте ваш отзыв</div>
+          <div class="form-group">
+            <label class="form-description" for="input-1">Ваше имя</label>
+            <input class="input-text" type="text" id="input-1" placeholder="ФИО">
+          </div>
+          <div class="form-group">
+            <label class="form-description" for="input-2">Ваш отзыв</label>
+            <textarea class="text-area" id="input-2" placeholder="Сообщение"></textarea>
+          </div>
+          <button class="form-button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="tab-menu.js"></script>
+  <script src="mobile-menu.js"></script>
+</body>
+</html>
