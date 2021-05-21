@@ -1,3 +1,3 @@
 # Training JS
 
-#### 1. [Tab Menu](./training-js/tab-menu/)
+#### 1. [Tab Menu](https://asotikovasvetlana.github.io/training-js/tab-menu/)
