@@ -4,13 +4,15 @@ const taskList = document.getElementById('tasks__list');
 
 taskInput.addEventListener('keydown', (event) => {
   if (event.key === 'Enter' && taskInput.value.trim() !== '') {
+    event.preventDefault();
     addNewTask();
     taskInput.value = '';
   }
 })
 
-taskAddButton.addEventListener('click', () => {
+taskAddButton.addEventListener('click', (event) => {
   if (taskInput.value.trim()) {
+    event.preventDefault();
     addNewTask();
     taskInput.value = '';
   }
