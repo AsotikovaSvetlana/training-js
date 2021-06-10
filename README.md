@@ -4,4 +4,4 @@
 
 #### 2. [Book Reader](https://asotikovasvetlana.github.io/training-js/book-reader/)
 
-#### 3. [Simple ToDo-list]()
+#### 3. [Simple ToDo-list](https://asotikovasvetlana.github.io/training-js/todo/)
