@@ -1,0 +1,148 @@
+body {
+  font-family: Arial;
+}
+
+.cart {
+  padding: 15px;
+  background-color: rgb(231, 227, 227);
+  border-radius: 10px;
+}
+
+.cart-hidden {
+  display: none;
+}
+
+.cart__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cart__products {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart__product {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative;
+  border: 1px solid rgb(172, 163, 163);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.cart__product:nth-child(n + 2) {
+  margin-left: 15px;
+}
+
+.cart__product-count {
+  position: absolute;
+  top: -3px;
+  right: -2px;
+  border: 2px solid green;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 16px;
+}
+
+.cart__product-remove {
+  position: absolute;
+  top: -3px;
+  left: -2px;
+  border: 2px solid green;
+  border-radius: 50%;
+  padding: 2px 5px;
+  color: red;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cart__product-image {
+  border-radius: 6px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.products {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 15px;
+}
+
+.product {
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid rgb(172, 163, 163);
+  border-radius: 10px;
+}
+.product__title {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.product__image {
+  width: 100px;
+  object-fit: contain;
+}
+
+.product__quantity-title {
+  text-transform: uppercase;
+}
+
+.product__quantity-controls {
+  display: flex;
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__quantity-control {
+  padding: 5px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.product__quantity-control:hover {
+  background: gray;
+  color: #fff;
+}
+
+.product__quantity-value {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.product__add {
+  background: green;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product__add:hover {
+  opacity: 0.8;
+}
+
+.product-shadow {
+  position: absolute;
+}
