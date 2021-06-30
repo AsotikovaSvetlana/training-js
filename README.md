@@ -7,3 +7,5 @@
 #### 3. [Simple ToDo-list](https://asotikovasvetlana.github.io/training-js/todo/)
 
 #### 4. [Product Card](https://asotikovasvetlana.github.io/training-js/cart/).
+
+#### 5. [TicTac-Toe]().
